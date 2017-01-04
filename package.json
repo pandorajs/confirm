@@ -1,0 +1,45 @@
+{
+  "name": "pandora-confirm",
+  "version": "1.2.0",
+  "description": "Confirm 继承于 Dialog",
+  "keywords": [
+    "confirm",
+    "pandora",
+    "widget"
+  ],
+  "homepage": "https://github.com/pandorajs/pandora-confirm",
+  "bugs": {
+    "url": "https://github.com/pandorajs/pandora-confirm/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pandorajs/pandora-confirm/blob/master/LICENSE-MIT"
+    }
+  ],
+  "author": {
+    "name": "pandorajs",
+    "url": "https://github.com/pandorajs"
+  },
+  "owners": [
+    {
+      "name": "pandorajs"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pandorajs/pandora-confirm.git"
+  },
+  "engines": {
+    "node": ">= 5.0.0"
+  },
+  "dependencies": {
+    "pandora-dialog": "^1.2.0"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+    "publish": "npm publish --registry http://registry.npmjs.org"
+  }
+}
